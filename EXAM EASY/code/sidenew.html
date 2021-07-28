@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<title>Exam Easy</title>
+<style>
+	</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body style="background-color: DarkOrchid">
+<div class="w3-sidebar w3-bar-block w3-border" style="display:none;margin-top:50px; background-color: green" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-button w3-large"> &times;</button>
+  <a href="login form.html" target="b" class="w3-bar-item w3-button"><b>LOGIN PAGE</b> </a>
+  <br>
+  <a href="instruction.html" target="b"  class="w3-bar-item w3-button"><b>INSTRUCTION</b></a>
+  <br>
+  <a href="home.html" target="b" class="w3-bar-item w3-button"><b>LOG OUT</b></a>
+    <br>
+  <a href="signup.html" target="b" class="w3-bar-item w3-button"><b>For new signup</b></a>
+</div>
+<div >
+  <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()" style="margin-top: 50px;">MENU</button>
+ </div>
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.width = "100%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</body>
+</html>

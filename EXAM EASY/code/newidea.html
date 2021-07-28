@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<?php
+session_start();
+if(!isset($_SESSION["CHECK_LOGIN"]))
+{
+     header('location:afterlogout.html');
+}
+?>
+<head>
+	
+</head>
+<title>Exam Easy</title>
+
+<frameset border ="1" cols="100%">
+<!--<frame name = "a" src="topicslink.html">-->
+
+
+<frame name="d" src="quiz.php">
+</frameset>
+
+<body>
+
+</body>
+</html>
